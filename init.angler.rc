@@ -150,6 +150,13 @@ on boot
     chmod 0644 /sys/kernel/debug/tracing/trace_marker
     chown webview_zygote webview_zygote /sys/kernel/debug/tracing/trace_marker
 
+    # TapToWake
+    chown system system /sys/devices/soc.0/f9924000.i2c/i2c-2/2-0070/input/input0/wake_gesture
+
+    # Vibrator intensity
+    chown system system /sys/devices/virtual/timed_output/vibrator/vmax_mv_light
+    chown system system /sys/devices/virtual/timed_output/vibrator/vmax_mv_strong
+
 on property:init.svc.per_mgr=running
     start per_proxy
 

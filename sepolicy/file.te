@@ -59,3 +59,5 @@ type sysfs_enable_edl, fs_type, sysfs_type;
 type sysfs_qpnp_26, fs_type, sysfs_type;
 # ram dumps
 type sysfs_ramdumps, fs_type, sysfs_type;
+
+type tap2wake_dev, fs_type, sysfs_type;
