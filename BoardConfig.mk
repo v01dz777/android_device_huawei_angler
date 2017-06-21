@@ -175,6 +175,17 @@ DEVICE_MATRIX_FILE := device/huawei/angler/compatibility_matrix.xml
 
 -include vendor/huawei/angler/BoardConfigVendor.mk
 
+# Enable dex pre-opt to speed up initial boot
+ifeq ($(HOST_OS),linux)
+  ifneq ($(TARGET_BUILD_VARIANT),eng)
+    ifeq ($(WITH_DEXPREOPT),)
+      WITH_DEXPREOPT := true
+      WITH_DEXPREOPT_BOOT_IMG_AND_SYSTEM_SERVER_ONLY := true
+    endif
+  endif
+endif
+PRODUCT_DEXPREOPT_SPEED_APPS += SystemUI
+
 # Legacy blob support
 TARGET_PROCESS_SDK_VERSION_OVERRIDE += \
     /vendor/bin/mm-qcamera-daemon=27
