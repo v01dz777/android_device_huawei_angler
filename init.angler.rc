@@ -199,8 +199,8 @@ on post-fs-data
     #Create folder for display calibration data
     mkdir /data/misc/display 0770 system graphics
 
-    # Create /data/time folder for time-services
-    mkdir /data/time/ 0700 system system
+    # Create /data/vendor/time folder for time-services
+    mkdir /data/vendor/time/ 0700 system system
     mkdir /data/audio/ 0770 media audio
 
     # Create folder for perf daemon
