@@ -82,4 +82,7 @@
 
     <!-- Turn off LiveDisplay auto mode by default -->
     <integer name="config_defaultLiveDisplayMode">0</integer>
+
+    <!-- BurnIn protection. This should be enabled on devices that have OLED displays -->
+    <bool name="config_enableBurnInProtection">true</bool>
 </resources>
