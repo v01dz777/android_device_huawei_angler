@@ -243,6 +243,9 @@ PRODUCT_PACKAGES += \
     libqomx_core \
     mm-qcamera-app
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
+
 # GPS
 PRODUCT_PACKAGES += \
     libgps.utils \
