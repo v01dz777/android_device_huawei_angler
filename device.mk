@@ -544,8 +544,8 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.oem_unlock_supported=1
 
 # Inherit custom memory configurations
-$(call inherit-product, vendor/aosip/config/phone-xxhdpi-3072-dalvik-heap.mk)
-$(call inherit-product, vendor/aosip/config/phone-xxhdpi-3072-hwui-memory.mk)
+$(call inherit-product, $(LOCAL_PATH)/memconfig/phone-xxhdpi-3072-dalvik-heap.mk)
+$(call inherit-product, $(LOCAL_PATH)/memconfig/phone-xxhdpi-3072-hwui-memory.mk)
 
 
 # drmservice prop
