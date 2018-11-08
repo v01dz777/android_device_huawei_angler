@@ -546,7 +546,8 @@ PRODUCT_PACKAGES += \
 
 # For data
 PRODUCT_PACKAGES += \
-   librmnetctl
+   librmnetctl \
+   rmnetcli
 
 # limit dex2oat threads to improve thermals
 PRODUCT_PROPERTY_OVERRIDES += \
