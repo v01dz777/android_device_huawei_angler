@@ -593,3 +593,7 @@ PRODUCT_PACKAGES += \
 
 # Netd
 TARGET_OMIT_NETD_TETHER_FTP_HELPER := true
+
+# Prebuilts
+PRODUCT_PACKAGES += \
+    GoogleModCamera
