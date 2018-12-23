@@ -490,8 +490,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.fluence.speaker=true
 
 # Default OMX service to non-Treble
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.media.treble_omx=false
+#PRODUCT_PROPERTY_OVERRIDES += \
+#    persist.media.treble_omx=false
 
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
