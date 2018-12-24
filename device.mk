@@ -242,8 +242,7 @@ PRODUCT_PACKAGES += \
     libmmcamera_interface \
     libmmcamera_interface2 \
     libmmjpeg_interface \
-    libqomx_core \
-    mm-qcamera-app
+    libqomx_core
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/external_camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/external_camera_config.xml
