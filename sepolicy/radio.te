@@ -7,3 +7,5 @@ allow radio system_app_data_file:dir getattr;
 
 hwbinder_use(radio)
 allow radio vnd_ims_radio_hwservice:hwservice_manager find;
+
+allow radio radio_service:service_manager add;
