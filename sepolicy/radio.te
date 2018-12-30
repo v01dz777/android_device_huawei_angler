@@ -4,3 +4,6 @@ allow radio rild_qmuxd_socket:sock_file write;
 qmux_socket(radio)
 
 allow radio system_app_data_file:dir getattr;
+
+hwbinder_use(radio)
+allow radio vnd_ims_radio_hwservice:hwservice_manager find;
