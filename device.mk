@@ -19,6 +19,10 @@
 #
 # Everything in this directory will become public
 
+# Privileged permissions whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/permissions/privapp-permissions-angler.xml:system/etc/permissions/privapp-permissions-angler.xml
+
 # Enable support for chinook sensorhub
 TARGET_USES_CHINOOK_SENSORHUB := false
 
