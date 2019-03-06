@@ -36,3 +36,7 @@ allow init sysfs_gpu_tuning:file setattr;
 allow init sysfs_ramdumps:file rw_file_perms;
 # todo fix missing labels
 allow init sysfs:file { setattr getattr };
+
+allow init mnt_vendor_file:dir mounton;
+allow init sysfs_tune:file setattr;
+allow init tap2wake_dev:file setattr;
