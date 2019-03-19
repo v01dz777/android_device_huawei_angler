@@ -341,6 +341,7 @@ PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     NfcNci \
     Tag \
+    SecureElement \
     android.hardware.nfc@1.1-service
 
 # Keymaster HAL
