@@ -3,4 +3,4 @@ allow priv_app proc:file { getattr open };
 allow priv_app proc_interrupts:file open;
 allow priv_app sysfs:dir open;
 allow priv_app sysfs:file { getattr open read };
-allow priv_app sysfs_mac_address:file read;
+allow priv_app sysfs_mac_address:file { getattr read open };
