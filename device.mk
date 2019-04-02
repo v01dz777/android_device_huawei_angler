@@ -541,10 +541,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.product.identify="angler" \
     persist.audio.fluence.speaker=true
 
-#Set AudioFlinger client heap size
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.af.client_heap_size_kbyte=7168
-
 # Enable AAC 5.1 output
 PRODUCT_PROPERTY_OVERRIDES += \
     media.aac_51_output_enabled=true
