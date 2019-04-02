@@ -541,10 +541,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.audio.product.identify="angler" \
     persist.audio.fluence.speaker=true
 
-# Default OMX service to non-Treble
-#PRODUCT_PROPERTY_OVERRIDES += \
-#    persist.media.treble_omx=false
-
 #Set AudioFlinger client heap size
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.af.client_heap_size_kbyte=7168
