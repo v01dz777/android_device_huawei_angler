@@ -651,9 +651,6 @@ $(call add-product-sanitizer-module-config,mm-qcamera-daemon,never)
 $(call add-product-sanitizer-module-config,thermal-engine,never)
 $(call add-product-sanitizer-module-config,qmuxd,never)
 
-# Netd
-TARGET_OMIT_NETD_TETHER_FTP_HELPER := true
-
 # Prebuilts
 PRODUCT_PACKAGES += \
     GoogleModCamera
