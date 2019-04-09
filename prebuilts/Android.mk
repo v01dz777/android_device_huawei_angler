@@ -3,7 +3,7 @@ LOCAL_PATH := $(call my-dir)
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleModCamera
 LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := priv-app/GoogleCamera/GCcamMod-6.1.013.apk
+LOCAL_SRC_FILES := priv-app/GoogleCamera/P3v9.1_GoogleCamera_6.1.021.apk
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
